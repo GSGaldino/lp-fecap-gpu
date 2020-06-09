@@ -41,17 +41,3 @@
   justify-content: space-around;
   padding-top: 20px;
 }
-
-
-@media screen and (max-width: 800px){
-  .footer {
-    display: block;
-    padding: 10px;
-    height: auto;
-  }
-
-  .footer .footer-menu,
-  .footer .footer-contacts {
-    margin: 20px auto;
-  }
-}

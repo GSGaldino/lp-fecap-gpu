@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaAngleDown } from 'react-icons/fa';
 
-import './FAQList.css';
+import './styles.css';
 
 export default function FAQList({ faq, index, toggleFAQ }){
   return (

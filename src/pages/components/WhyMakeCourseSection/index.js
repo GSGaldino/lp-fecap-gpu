@@ -1,9 +1,10 @@
 import React, { useState, Fragment } from 'react';
-import FAQList from './FAQList';
+import FAQList from '../FAQList';
 
 import { FaAngleDown } from 'react-icons/fa';
 
-import './WhyMakeCourseSection.css';
+import './styles.css';
+import './responsive.css';
 
 
 export default function WhyMakeCourseSection() {

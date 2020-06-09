@@ -107,36 +107,3 @@ nav.menu ul li ul li {
   width: 100%;
   white-space: normal !important;
 }
-
-@media screen and (max-width: 800px){
-  div.container-sandwich {
-    display: block;
-  }
-
-  .container-header {
-    display: block;
-    padding: 20px;
-  }
-
-  .container-header .container-img {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;    
-  }
-
-  nav.menu {
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 0px;
-    height: 0px;
-    overflow: hidden;
-  }
-
-  nav.menu ul {
-    display: block;
-  }
-
-  nav.menu ul li a {
-    padding: 10px;
-  }
-}

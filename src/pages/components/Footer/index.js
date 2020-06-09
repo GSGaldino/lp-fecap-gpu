@@ -2,9 +2,11 @@ import React, { Fragment } from 'react';
 
 import { FaPhone, FaEnvelope, FaWhatsapp, FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 
-import './Footer.css';
+import './styles.css';
+import './responsive.css';
 
 export default function Footer(){
+  
   return (
     <Fragment>
       <footer className="footer">
@@ -20,8 +22,8 @@ export default function Footer(){
         </div>
         <div className="footer-links">
           <FaFacebookF/>
-          <FaTwitter/>
           <FaInstagram />
+          <FaTwitter/>          
         </div>
       </footer>
     </Fragment>

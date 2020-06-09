@@ -1,9 +1,10 @@
 import React from 'react';
 import { MdArrowDropDown } from 'react-icons/md';
 
-import logoImg from '../../assets/logo.png';
+import logoImg from '../../../assets/logo.png';
 
-import './Header.css';
+import './styles.css';
+import './responsive.css';
 
 export default function Header(){
   const $ = document.querySelector.bind(document);
@@ -26,18 +27,22 @@ export default function Header(){
 
   return (
     <div className="container-header">
-      <div className="container-img">
-        <img src={logoImg} alt="FECAP" title="FECAP" />
-        <div 
-          className="container-sandwich" 
-          onClick={toggleMenu}
-        >
+      <div className="section-menu">
+        <div className="container-img">
+          <img 
+            src={logoImg} 
+            alt="FECAP" 
+            title="FECAP" 
+          />
+        </div>
+
+        <div className="container-sandwich" onClick={toggleMenu}>
           <span className="sandwich" >
 
           </span>
         </div>
       </div>
-      
+
       <nav className="menu">
         <ul>
           <li><a style={flexButton} href="/" onClick={toggleSubMenu}>Cursos Rápidos <MdArrowDropDown /></a>

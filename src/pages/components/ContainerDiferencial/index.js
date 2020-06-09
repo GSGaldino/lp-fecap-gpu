@@ -1,6 +1,7 @@
 import React from 'react';
 
-import './ContainerDiferencial.css';
+import './styles.css';
+import './responsive.css';
 
 export default function ContainerDiferencial(props) {
   return (

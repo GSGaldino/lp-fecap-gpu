@@ -1,0 +1,11 @@
+@media screen and (max-width: 800px){
+
+  .container-goal {
+    border: 1px solid #dcdce6;
+  }
+
+  .container-goal .container-text h4 {
+    margin-top: 15px;
+  }
+
+}

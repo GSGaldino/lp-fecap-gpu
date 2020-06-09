@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
-import './ContainerGoal.css';
+import './styles.css';
+import './responsive.css';
 
 
 export default function ContainerGoal(props){

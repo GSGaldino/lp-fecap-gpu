@@ -201,13 +201,10 @@
 }
 
 .container-gpu .what-is .text-what-is p {
-  text-align: justify;
-  padding: 20px;
-}
-
-.container-gpu .what-is .text-what-is p {
   width: 50%;
   margin: 10px auto;
   color: var(--text-color);
   line-height: 1.8;
+  text-align: justify;
+  padding: 20px;
 }

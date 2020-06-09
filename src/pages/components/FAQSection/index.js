@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import FAQList from './FAQList';
+import FAQList from '../FAQList';
 
-import './FAQSection.css';
+import './styles.css';
+import './responsive.css';
 
 
 export default function FAQSection() {

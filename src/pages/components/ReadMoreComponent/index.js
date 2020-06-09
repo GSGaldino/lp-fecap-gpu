@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import './ReadMoreComponent.css';
+
+import './styles.css';
+import './responsive.css';
 
 export default function ReadMoreComponent() {
 
