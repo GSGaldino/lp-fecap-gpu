@@ -1,0 +1,42 @@
+@media screen and (max-width: 800px){
+
+  .container-gpu .section-top {
+    padding: 20px;
+    display: block;
+    padding-bottom: 300px;
+    margin-bottom: -300px;
+  }
+
+  .container-gpu .section-top .container-text,
+  .container-gpu .section-top .container-text .container,
+  .container-gpu .section-top .container-form {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+  }
+
+  .container-gpu .section-top .container-form .background-form {
+    width: 90%;
+  }
+
+  .container-gpu .goals {
+    display: flex;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .container-gpu .container-action,
+  .container-gpu .container-diferenciais {
+    padding: 20px 0px;
+  }
+
+  .container-gpu .container-diferenciais .diferenciais {
+    display: block;
+  }
+
+  .container-gpu .container-diferenciais .diferenciais .diferencial {
+    width: 100%;
+    max-width: 100%;
+  }
+
+}

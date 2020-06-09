@@ -1,0 +1,182 @@
+.container-gpu {
+  position: relative;
+  width: 100%;
+}
+
+.container-gpu .section-top {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 100px 400px 100px;
+
+  background: url('../../assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container-gpu .section-top .container-text,
+.container-gpu .section-top .container-form{
+  width: 50%;
+}
+
+.container-gpu .section-top .container-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-gpu .section-top .container-form h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.container-gpu .section-top .container-form .background-form {
+  background: #fff;
+  padding: 30px;
+  width: 70%;
+  text-align: center;
+}
+
+.container-gpu .section-top .container-text {
+  padding: 40px 60px 10px 0px;
+}
+
+.container-gpu .section-top .container-text p {
+  font-size: 1.2rem;
+  margin: 30px auto;
+  line-height: 1.8;
+}
+
+.container-gpu .section-top .container-text .container-logo-abed {
+  text-align: center;
+  width: 100%;
+}
+
+.container-gpu .section-top .container-text .container-logo-abed img {
+  width: 80%;
+}
+
+.container-gpu .section-goals {
+  margin-top: -350px;
+}
+
+.container-gpu .goals {
+  display: flex;
+}
+
+.container-gpu .goals:last-child {
+  margin-top: -40px;
+}
+
+.container-gpu .goals .goal {
+  width: 50%;
+  padding: 20px 40px;
+}
+
+.container-gpu .container-action {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 100px;
+}
+
+.container-gpu .container-action a {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 16px 60px;
+  font-size: 20px;
+  border-radius: 30px;
+  transition: background .5s ease-out;
+}
+
+.container-gpu .container-action a:hover {
+  background: var(--secondary-color);
+}
+
+.container-gpu .container-diferenciais {
+  text-align: center;
+  padding: 20px 100px;
+  margin: 50px auto 20px auto;
+}
+
+.container-gpu .container-diferenciais .diferenciais {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto;
+}
+
+.container-gpu .container-diferenciais .diferenciais .diferencial {
+  width: 25%;
+  max-width: 25%;
+}
+
+.container-gpu .digital-ambient {
+  text-align: center;
+  width: 100%;
+  color: var(--text-color);
+}
+
+.container-gpu .digital-ambient h2 {
+  color: var(--primary-color);
+}
+
+.container-gpu .more-fecap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-gpu .more-fecap h2 {
+  margin-bottom: 20px;
+}
+
+.container-gpu .more-fecap .section {
+  display: flex;
+  width: 100%;
+  padding: 20px 100px;
+}
+
+.container-gpu .more-fecap .section .container-text {
+  width: 50%;
+  color: var(--text-color);
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.container-gpu .more-fecap .section .container-text p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.container-gpu .more-fecap .section .container-img {
+  width: 50%;
+}
+
+
+.container-gpu .more-fecap .section .container-img img {
+  width: 100%;
+}
+
+.container-gpu .what-is {
+  padding: 40px 100px;
+  background: #D6F3FC;
+}
+
+.container-gpu .what-is .container-what-is {
+  text-align: center;
+}
+
+.container-gpu .what-is .text-what-is {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-gpu .what-is .text-what-is p {
+  width: 50%;
+  margin: 10px auto;
+  color: var(--text-color);
+  line-height: 1.8;
+}

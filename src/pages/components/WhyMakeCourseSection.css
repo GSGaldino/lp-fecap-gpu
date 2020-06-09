@@ -1,0 +1,19 @@
+.container-why-make-course {
+  padding: 20px 100px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.container-why-make-course p {
+  margin: 10px 0px;
+}
+
+.container-why-make-course .faq-answer .faq-list {
+  display: flex;
+}
+
+.container-why-make-course .faq-answer .faq-list ul {
+  list-style: none;
+  width: 50%;
+  text-align: left;
+}

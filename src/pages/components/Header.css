@@ -1,0 +1,142 @@
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+.container-header .container-img {
+  width: 20%;
+}
+
+.container-header .container-img img {
+  width: 100px;
+}
+
+div.container-sandwich {
+  display: none;
+  width: 11%;
+}
+
+div.container-sandwich span {
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid var(--primary-color);
+  margin-top: 10px;
+}
+
+div.container-sandwich span:after {
+  content: '';
+  display: block;
+  background: var(--primary-color);
+  width: 100%;
+  height: 2px;
+  position: relative;
+  top: 16px;
+}
+
+div.container-sandwich span:before {
+  content: '';
+  display: block;
+  background: var(--primary-color);
+  width: 100%;
+  height: 2px;
+  position: relative;
+  bottom: 10px;
+}
+
+nav.menu {
+  width: 60%;
+}
+
+nav.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+nav.menu ul li a {
+  display: block;
+  padding: 2px 20px;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 18px;
+  white-space: nowrap;
+  font-weight: 600;
+  transition: color .5s ease-out;
+}
+
+nav.menu ul li a:hover {
+  color: var(--secondary-color);  
+}
+
+nav.menu ul li ul {
+  position: absolute;  
+  background: #fff;
+  width: 520px !important;
+  margin-top: 20px;
+
+  display: block !important;
+
+  max-height: 0;
+  overflow-y: hidden;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+nav.menu ul li ul li {
+  position: relative;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.active {
+  height: auto !important;
+  margin-top: 20px !important;
+  animation: toggleMenu .3s !important;
+}
+
+.active-submenu {
+  max-height: 1000px !important;
+  opacity: 1 !important;
+}
+
+.active-submenu li a {
+  display: block;
+  position: relative;
+  width: 100%;
+  white-space: normal !important;
+}
+
+@media screen and (max-width: 800px){
+  div.container-sandwich {
+    display: block;
+  }
+
+  .container-header {
+    display: block;
+    padding: 20px;
+  }
+
+  .container-header .container-img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;    
+  }
+
+  nav.menu {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+    height: 0px;
+    overflow: hidden;
+  }
+
+  nav.menu ul {
+    display: block;
+  }
+
+  nav.menu ul li a {
+    padding: 10px;
+  }
+}

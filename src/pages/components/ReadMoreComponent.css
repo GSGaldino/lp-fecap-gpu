@@ -1,0 +1,40 @@
+.read-more-container {
+  width: 100%;
+  padding: 20px 100px;
+}
+
+.read-more-container .container {
+  margin: 20px auto;
+}
+
+.read-more-container .container h2 {
+  font-size: 20px;
+}
+
+.read-more-container .container p {
+  font-size: 16px;
+  color: var(--text-color);
+  line-height: 1.8;
+  margin: 10px auto;
+}
+
+.read-more-container .invisible {
+  height: 0px;
+  overflow: hidden;
+}
+
+.read-more-container .visible {
+  height: auto;
+  overflow: visible;
+}
+
+.read-more-container h3 {
+  font-size: 16px;
+  color: var(--primary-color);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.read-more-container h3:hover {
+  text-decoration: underline;
+}

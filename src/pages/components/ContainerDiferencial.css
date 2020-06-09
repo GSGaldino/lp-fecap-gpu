@@ -1,0 +1,16 @@
+.container-diferencial-component {
+  position: relative;
+  width: 100%;
+  padding: 16px;
+}
+
+.container-diferencial-component img {
+  width: 70%;
+  margin-bottom: 40px;
+}
+
+.container-diferencial-component p {
+  margin: 30px auto;
+  color: var(--text-color);
+  line-height: 1.8;
+}
