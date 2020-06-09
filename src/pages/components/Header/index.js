@@ -28,6 +28,7 @@ export default function Header(){
   return (
     <div className="container-header">
       <div className="section-menu">
+
         <div className="container-img">
           <img 
             src={logoImg} 
@@ -36,11 +37,12 @@ export default function Header(){
           />
         </div>
 
-        <div className="container-sandwich" onClick={toggleMenu}>
-          <span className="sandwich" >
+          <div className="container-sandwich" onClick={toggleMenu}>
+            <span className="sandwich" >
 
-          </span>
-        </div>
+            </span>
+          </div>
+        
       </div>
 
       <nav className="menu">

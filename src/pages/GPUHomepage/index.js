@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import ContainerGoal from '../components/ContainerGoal';
 import WhyMakeCourseSection from '../components/WhyMakeCourseSection';
 import ContainerDiferencial from '../components/ContainerDiferencial';
+import VideoIframe from '../components/VideoIframe';
 import FAQSection from '../components/FAQSection';
 import ReadMoreComponent from '../components/ReadMoreComponent';
 import Footer from '../components/Footer';
@@ -153,6 +154,11 @@ export default function GPUHomepage() {
       <div className="digital-ambient">
         <h2>Ambiente Digital</h2>
         <p>Conheça o Ambiente Virtual de Ensino da FECAP abaixo:</p>
+        
+
+        {/*DANGEROUSLY **************/}
+        <VideoIframe />
+        {/*DANGEROUSLY **************/}
       </div>
 
       <FAQSection />
