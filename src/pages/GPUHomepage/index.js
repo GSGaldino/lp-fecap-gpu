@@ -10,6 +10,9 @@ import Footer from '../components/Footer';
 
 import abedImg from '../../assets/abed.png';
 import timeImg from '../../assets/time-img.png';
+import chargeImg from '../../assets/charge-img.png';
+import infraImg from '../../assets/infra-img.png';
+import dateImg from '../../assets/date-img.png';
 import firstImg from '../../assets/professores-alto-nivel.png';
 import secondImg from '../../assets/suporte-vitalicio.png';
 import thirdImg from '../../assets/excelencia-e-tradicao.png';
@@ -26,11 +29,6 @@ import './styles.css';
 import './responsive.css';
 
 export default function GPUHomepage() {
-  function togglePopup(e){
-    e.preventDefault();
-    alert("Hello")
-  }
-
   return (
     <div className="container-gpu">
       <Header />
@@ -73,7 +71,7 @@ export default function GPUHomepage() {
           </div>
           <div className="goal">
             <ContainerGoal
-              img={timeImg}
+              img={dateImg}
               imgText={"Data de início"}
               firstText={"Data de início"}
               secondText={"Início imediato"}
@@ -84,7 +82,7 @@ export default function GPUHomepage() {
         <div className="goals">
           <div className="goal">
             <ContainerGoal
-              img={timeImg}
+              img={chargeImg}
               imgText={"Carga horária"}
               firstText={"Carga horária"}
               secondText={"360 horas"}
@@ -94,7 +92,7 @@ export default function GPUHomepage() {
 
           <div className="goal">
             <ContainerGoal
-              img={timeImg}
+              img={infraImg}
               imgText={"Infraestrutura"}
               firstText={"Infraestrutura"}
               secondText={"Tenha acesso a toda infraestrutura da FECAP"}
@@ -109,7 +107,7 @@ export default function GPUHomepage() {
       <WhyMakeCourseSection />
 
       <div className="container-action">
-        <a href="#form" onClick={togglePopup}>Mais informações</a>
+        <a href="#form">Mais informações</a>
       </div>
 
       {/* Aqui começa a seção com os diferenciais */}
@@ -155,12 +153,6 @@ export default function GPUHomepage() {
       <div className="digital-ambient">
         <h2>Ambiente Digital</h2>
         <p>Conheça o Ambiente Virtual de Ensino da FECAP abaixo:</p>
-        <iframe
-          src="https://player.vimeo.com/video/403386729" 
-          title="FECA Vídeo"
-          frameBorder="0"
-          width="300px"
-        />
       </div>
 
       <FAQSection />

@@ -42,5 +42,5 @@
 }
 
 .shadowed {
-  box-shadow: 0 0 100px rgba(0,0,0,.2);
+  box-shadow: 0 50px 50px rgba(0,0,0,.12);
 }
